@@ -1,0 +1,12 @@
+/**
+ * Necessary for TinyMCE's inline pop-up gradient background to work in ie9+
+ * @see http://www.colorzilla.com/gradient-editor/
+ * gradient code in:
+ * /sites/all/libraries/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/oa_inlinepopups/window.css
+ */
+.oa_inlinepopups .mceTop, .oa_inlinepopups .mceTop div,
+#insert, #cancel, #apply, .mceActionPanel .button, input.mceButton, .updateButton,
+#insert:active, #cancel:active, #apply:active, .mceActionPanel .button:active, input.mceButton:active, .updateButton:active,
+#insert:hover, #cancel:hover, #apply:hover, .mceActionPanel .button:hover, input.mceButton:hover, .updateButton:hover {
+  filter: none !important;
+}
